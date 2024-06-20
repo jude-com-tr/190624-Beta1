@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+header div {
+  background-color: black;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main img {
+  border: 2px solid brown;
+  width: 250px;
+  padding: 50px;
+}
+
+img:hover {
+  width: 280x;
+  padding: 0;
+}
+
+.img {
+  border: 2px solid yellow;
+}
